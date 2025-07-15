@@ -4,11 +4,11 @@ This project predicts the rating of a movie based on its genre, director, actors
 
 # Project Files
 
-movie_rating_model.py – Main Python file with the complete logic (loading data, preprocessing, training, predicting, and visualizing).
+<b>movie_rating_model.py</b> – Main Python file with the complete logic (loading data, preprocessing, training, predicting, and visualizing).
 
-movie_dataset.csv – Sample movie dataset containing columns like Genre, Director, Actors, Votes, and Rating.
+<b>movie_dataset.csv</b> – Sample movie dataset containing columns like Genre, Director, Actors, Votes, and Rating.
 
-model.pkl – Trained regression model saved using pickle.
+<b>model.pkl</b> – Trained regression model saved using pickle.
 
 requirements.txt – List of all Python libraries used in the project.
 

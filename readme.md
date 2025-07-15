@@ -3,14 +3,15 @@
 This project predicts the rating of a movie based on its genre, director, actors, and votes using machine learning. It was created as part of the CodSoft Internship and helps you explore real-world data analysis, preprocessing, and regression modeling.
 
 # Project Files
-
+<ol>
 <b>movie_rating_model.py</b> – Main Python file with the complete logic (loading data, preprocessing, training, predicting, and visualizing).
 
 <b>movie_dataset.csv</b> – Sample movie dataset containing columns like Genre, Director, Actors, Votes, and Rating.
 
 <b>model.pkl</b> – Trained regression model saved using pickle.
 
-requirements.txt – List of all Python libraries used in the project.
+<b>requirements.txt</b> – List of all Python libraries used in the project.
+</ol>
 
 # Features
 

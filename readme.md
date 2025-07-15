@@ -6,12 +6,13 @@
 <ol>
 <li><b>movie_rating_model.py</b> – Main Python file with the complete logic (loading data, preprocessing, training, predicting, and visualizing).</li>
 
-<li><b>movie_dataset.csv</b> – Sample movie dataset containing columns like Genre, Director, Actors, Votes, and Rating.</li>
+movie_rating_model.py – Main Python file with the complete logic (loading data, preprocessing, training, predicting, and visualizing).
 
-<li><b>model.pkl</b> – Trained regression model saved using pickle.</li>
+movie_dataset.csv – Sample movie dataset containing columns like Genre, Director, Actors, Votes, and Rating.
 
-<li><b>requirements.txt </b>– List of all Python libraries used in the project.</li>
-</ol>
+model.pkl – Trained regression model saved using pickle.
+
+requirements.txt – List of all Python libraries used in the project.
 
 # Features
 <ol>
@@ -78,5 +79,5 @@ matplotlib
 seaborn
 scikit-learn
 pickle
-</ul>
-<q>All are listed in requirements.txt.</q>
+
+All are listed in requirements.txt.

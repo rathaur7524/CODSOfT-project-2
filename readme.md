@@ -1,67 +1,74 @@
 # Movie Rating Prediction
 
-This project predicts the rating of a movie based on its genre, director, actors, and votes using machine learning. It was created as part of the CodSoft Internship and helps you explore real-world data analysis, preprocessing, and regression modeling.
+<q>This project predicts the rating of a movie based on its genre, director, actors, and votes using machine learning. It was created as part of the CodSoft Internship and helps you explore real-world data analysis, preprocessing, and regression modeling.</q>
 
 # Project Files
+<ol>
+<li><b>movie_rating_model.py</b> – Main Python file with the complete logic (loading data, preprocessing, training, predicting, and visualizing).</li>
 
-movie_rating_model.py – Main Python file with the complete logic (loading data, preprocessing, training, predicting, and visualizing).
+<li><b>movie_dataset.csv</b> – Sample movie dataset containing columns like Genre, Director, Actors, Votes, and Rating.</li>
 
-movie_dataset.csv – Sample movie dataset containing columns like Genre, Director, Actors, Votes, and Rating.
+<li><b>model.pkl</b> – Trained regression model saved using pickle.</li>
 
-model.pkl – Trained regression model saved using pickle.
-
-requirements.txt – List of all Python libraries used in the project.
+<li><b>requirements.txt </b>– List of all Python libraries used in the project.</li>
+</ol>
 
 # Features
+<ol>
+<li>Cleaned and prepared dataset from scratch</li>
 
-Cleaned and prepared dataset from scratch
+<li>Encodes categorical columns like Genre, Director, and Actors</li>
 
-Encodes categorical columns like Genre, Director, and Actors
+<li>Combines multiple actor columns into one</li>
 
-Combines multiple actor columns into one
+<li>Trains a regression model using Random Forest</li>
 
-Trains a regression model using Random Forest
+<li>Displays Mean Absolute Error and R² score</li>
 
-Displays Mean Absolute Error and R² score
+<li>Shows data visualizations (genre vs rating, top directors, votes vs rating)</li>
 
-Shows data visualizations (genre vs rating, top directors, votes vs rating)
+<li>Allows user to input custom movie details to predict its rating</li>
 
-Allows user to input custom movie details to predict its rating
+</ol>
 
 # Visualizations
 
-The project displays:
+<b>The project displays:</b>
+<ul>
 
-Average rating by genre
+<li>Average rating by genre</li>
 
-Top 5 directors by average rating
+<li>Top 5 directors by average rating</li>
 
-Scatter plot of votes vs rating
+<li>Scatter plot of votes vs rating</li>
+</ul>
 
 # How to Run
 
-Make sure all required libraries are installed:
+<b>Make sure all required libraries are installed:</b>
 
 bash
 Copy
 Edit
 pip install -r requirements.txt
-Run the main file:
+
+<b>Run the main file:</b>
 
 bash
 Copy
 Edit
-python movie_rating_model.py
+<q>python movie_rating_model.py</q>
+
 Follow the prompts in the terminal to:
 
-View visualizations
+<q>View visualizations</q>
 
 Predict a custom movie rating
 
 # Requirements
 
 The project uses the following Python libraries:
-
+<ul>
 nginx
 Copy
 Edit
@@ -71,5 +78,5 @@ matplotlib
 seaborn
 scikit-learn
 pickle
-
-All are listed in requirements.txt.
+</ul>
+<q>All are listed in requirements.txt.</q>

@@ -4,7 +4,7 @@ This project predicts the rating of a movie based on its genre, director, actors
 
 # Project Files
 <ol>
-<b>movie_rating_model.py</b> – Main Python file with the complete logic (loading data, preprocessing, training, predicting, and visualizing).
+<li><b>movie_rating_model.py</b> – Main Python file with the complete logic (loading data, preprocessing, training, predicting, and visualizing).</li>
 
 <b>movie_dataset.csv</b> – Sample movie dataset containing columns like Genre, Director, Actors, Votes, and Rating.
 

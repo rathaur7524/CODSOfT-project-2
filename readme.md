@@ -71,10 +71,10 @@ Predict a custom movie rating
 
 The project uses the following Python libraries:
 <ul>
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-pickle
+<li>pandas</li>
+<li>numpy</li>
+<li>matplotlib</li>
+<li>seaborn</li>
+<li>scikit-learn</li>
+<li>pickle</li>
 </ul>
